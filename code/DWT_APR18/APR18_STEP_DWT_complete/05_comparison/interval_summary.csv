@@ -1,0 +1,4 @@
+case,feature,left_s,right_s,windows,mean_rate,negative_windows,positive_windows
+synthetic_growth,A8_rate,40,70,29,0.0006046059433626181,0,29
+synthetic_control,A8_rate,40,70,29,-9.120510523325635e-07,18,11
+APR18_late,A13_rate,18,47,28,-1.7375321024995306e-05,28,0

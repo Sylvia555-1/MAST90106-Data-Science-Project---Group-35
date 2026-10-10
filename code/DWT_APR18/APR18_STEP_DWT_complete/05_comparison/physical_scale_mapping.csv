@@ -1,0 +1,9 @@
+synthetic_level,synthetic_scale_s,APR18_level,APR18_scale_s,interpretation
+1,0.02,6,0.019999969659365076,"Scale spacing, not exact event duration"
+2,0.04,7,0.03999993931873015,"Scale spacing, not exact event duration"
+3,0.08,8,0.0799998786374603,"Scale spacing, not exact event duration"
+4,0.16,9,0.1599997572749206,"Scale spacing, not exact event duration"
+5,0.32,10,0.3199995145498412,"Scale spacing, not exact event duration"
+6,0.64,11,0.6399990290996824,"Scale spacing, not exact event duration"
+7,1.28,12,1.2799980581993649,"Scale spacing, not exact event duration"
+8,2.56,13,2.5599961163987297,"Scale spacing, not exact event duration"

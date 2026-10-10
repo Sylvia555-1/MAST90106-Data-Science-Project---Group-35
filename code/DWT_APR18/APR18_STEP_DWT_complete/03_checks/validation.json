@@ -1,0 +1,219 @@
+{
+  "config": {
+    "wavelet": "db2",
+    "mode": "symmetric",
+    "analysis": "offline descriptive features",
+    "real_grid_dt_s": 0.0003124995259275793,
+    "slow_actual_level": 13,
+    "early_actual_level": 5,
+    "slow_window_s": 1,
+    "early_window_s": 0.01,
+    "boundary_margin_scale_multiplier": 6.25,
+    "normalization": false,
+    "threshold_detector": false,
+    "raw_time_origin_preserved": true,
+    "original_points": 65,
+    "real_input": "all original points as linear interpolation knots",
+    "user_scope": "APR18 BH 0.1 to 1/s, complete response versus synthetic growth"
+  },
+  "fidelity": [
+    {
+      "channel": "stress_Pa",
+      "grid_intervals": 201600,
+      "grid_dt_s": 0.0003124995259275793,
+      "all_65_knots_used": true,
+      "exact_original_endpoints": true,
+      "max_roundtrip_fraction": 0.0033232411318303632,
+      "local_extrema_including_endpoints": 16,
+      "maximum_extremum_nearby_amplitude_fraction": 0.002069102263816456,
+      "reconstruction_error": 1.5265566588595902e-16,
+      "global_extrema": [
+        {
+          "kind": "minimum",
+          "raw_time_s": 0.00787565,
+          "grid_time_s": 0.007983062096334325,
+          "time_error_s": 0.00010741209633432537
+        },
+        {
+          "kind": "maximum",
+          "raw_time_s": 0.450381,
+          "grid_time_s": 0.4504823908097867,
+          "time_error_s": 0.00010139080978671666
+        }
+      ],
+      "passes_one_percent_fidelity": true
+    },
+    {
+      "channel": "shear_rate_1_s",
+      "grid_intervals": 201600,
+      "grid_dt_s": 0.0003124995259275793,
+      "all_65_knots_used": true,
+      "exact_original_endpoints": true,
+      "max_roundtrip_fraction": 0.0014430285467181916,
+      "local_extrema_including_endpoints": 24,
+      "maximum_extremum_nearby_amplitude_fraction": 0.0001376557491700165,
+      "reconstruction_error": 2.886579864025407e-15,
+      "global_extrema": [
+        {
+          "kind": "minimum",
+          "raw_time_s": 0.000795573,
+          "grid_time_s": 0.000795573,
+          "time_error_s": 0.0
+        },
+        {
+          "kind": "maximum",
+          "raw_time_s": 0.0225241,
+          "grid_time_s": 0.022670539814930557,
+          "time_error_s": 0.00014643981493055874
+        }
+      ],
+      "passes_one_percent_fidelity": true
+    },
+    {
+      "channel": "stress_Pa",
+      "grid_intervals": 403200,
+      "grid_dt_s": 0.0001562497629637897,
+      "all_65_knots_used": true,
+      "exact_original_endpoints": true,
+      "max_roundtrip_fraction": 0.0016213986907806007,
+      "local_extrema_including_endpoints": 16,
+      "maximum_extremum_nearby_amplitude_fraction": 0.0009341331344069556,
+      "reconstruction_error": 1.5265566588595902e-16,
+      "global_extrema": [
+        {
+          "kind": "minimum",
+          "raw_time_s": 0.00787565,
+          "grid_time_s": 0.007983062096334325,
+          "time_error_s": 0.00010741209633432537
+        },
+        {
+          "kind": "maximum",
+          "raw_time_s": 0.450381,
+          "grid_time_s": 0.4503261410468229,
+          "time_error_s": 5.485895317708378e-05
+        }
+      ],
+      "passes_one_percent_fidelity": true
+    },
+    {
+      "channel": "shear_rate_1_s",
+      "grid_intervals": 403200,
+      "grid_dt_s": 0.0001562497629637897,
+      "all_65_knots_used": true,
+      "exact_original_endpoints": true,
+      "max_roundtrip_fraction": 0.0009438411697805977,
+      "local_extrema_including_endpoints": 24,
+      "maximum_extremum_nearby_amplitude_fraction": 8.812337033294223e-05,
+      "reconstruction_error": 3.3306690738754696e-15,
+      "global_extrema": [
+        {
+          "kind": "minimum",
+          "raw_time_s": 0.000795573,
+          "grid_time_s": 0.000795573,
+          "time_error_s": 0.0
+        },
+        {
+          "kind": "maximum",
+          "raw_time_s": 0.0225241,
+          "grid_time_s": 0.022514290051966767,
+          "time_error_s": 9.809948033231292e-06
+        }
+      ],
+      "passes_one_percent_fidelity": true
+    },
+    {
+      "channel": "stress_Pa",
+      "grid_intervals": 806400,
+      "grid_dt_s": 7.81248814818948e-05,
+      "all_65_knots_used": true,
+      "exact_original_endpoints": true,
+      "max_roundtrip_fraction": 0.0008717543524480135,
+      "local_extrema_including_endpoints": 16,
+      "maximum_extremum_nearby_amplitude_fraction": 0.0005798256617497048,
+      "reconstruction_error": 1.942890293094024e-16,
+      "global_extrema": [
+        {
+          "kind": "minimum",
+          "raw_time_s": 0.00787565,
+          "grid_time_s": 0.007904937214852432,
+          "time_error_s": 2.928721485243209e-05
+        },
+        {
+          "kind": "maximum",
+          "raw_time_s": 0.450381,
+          "grid_time_s": 0.4504042659283048,
+          "time_error_s": 2.326592830481644e-05
+        }
+      ],
+      "passes_one_percent_fidelity": true
+    },
+    {
+      "channel": "shear_rate_1_s",
+      "grid_intervals": 806400,
+      "grid_dt_s": 7.81248814818948e-05,
+      "all_65_knots_used": true,
+      "exact_original_endpoints": true,
+      "max_roundtrip_fraction": 0.0005119525949177674,
+      "local_extrema_including_endpoints": 24,
+      "maximum_extremum_nearby_amplitude_fraction": 6.421712119633319e-05,
+      "reconstruction_error": 3.3306690738754696e-15,
+      "global_extrema": [
+        {
+          "kind": "minimum",
+          "raw_time_s": 0.000795573,
+          "grid_time_s": 0.000795573,
+          "time_error_s": 0.0
+        },
+        {
+          "kind": "maximum",
+          "raw_time_s": 0.0225241,
+          "grid_time_s": 0.02259241493344866,
+          "time_error_s": 6.831493344866199e-05
+        }
+      ],
+      "passes_one_percent_fidelity": true
+    }
+  ],
+  "prior_synthetic_reproduction": [
+    {
+      "case": "control_1",
+      "maximum_feature_difference": 9.990923019453923e-17,
+      "reconstruction_error": 4.85722573273506e-17
+    },
+    {
+      "case": "test_clot_1",
+      "maximum_feature_difference": 9.993633524885137e-17,
+      "reconstruction_error": 8.326672684688674e-17
+    }
+  ],
+  "checks": {
+    "constant_details_zero": true,
+    "linear_trend_preserved_interior": true,
+    "initial_difference_is_missing": true,
+    "source_hashes_unchanged": true,
+    "scale_matching_within_10ppm": true,
+    "exact_linear_window_integration": true,
+    "approximation_component_sum": true,
+    "global_extrema_time_within_one_grid_step": true
+  },
+  "environment": {
+    "python": "3.12.7",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "PyWavelets": "1.7.0"
+  },
+  "source_hashes": {
+    "/Users/jerry_t0mato/Desktop/codex/exports/APR18_STEP_DWT_complete/inputs/APR18 SS SAOS STEPS LAOS UDLAOS.xlsx": "142f36127c216ac705822ea21118411de4b57c5519cd1b047ca45ce0fde76837",
+    "/Users/jerry_t0mato/Desktop/codex/exports/APR18_STEP_DWT_complete/inputs/synthetic_step/manifest.json": "25223d6849850892e5484cf4653eab10892d1530e0dfa4a8944e972b24fcc26b",
+    "/Users/jerry_t0mato/Desktop/codex/exports/APR18_STEP_DWT_complete/inputs/synthetic_step/test/control_1.csv": "804cf9a9df766de9999e55fa06f7ebbe3f3bea022581659efdce8a758dcb3fcd",
+    "/Users/jerry_t0mato/Desktop/codex/exports/APR18_STEP_DWT_complete/inputs/synthetic_step/test/test_clot_1.csv": "982fb7799569ac348148192ff9bd9a77668965c18919bf240c39fea789900ba3",
+    "/Users/jerry_t0mato/Desktop/codex/exports/APR18_STEP_DWT_complete/inputs/synthetic_step/train/cal_02_0p1_to_1.csv": "066dc772c9eb3072aa92ba3733fdeb36f0088d57b6633f1413d529e8e213f1e2"
+  },
+  "limitations": [
+    "No independent real event labels or noise-only record.",
+    "Interpolation does not recover unobserved fluctuations.",
+    "Original first point is not a verified loading trigger.",
+    "Matched scales do not make the physical protocols identical.",
+    "Engineering boundary screens do not establish genuine prehistory."
+  ]
+}

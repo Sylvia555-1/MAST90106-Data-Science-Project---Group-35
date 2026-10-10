@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "apr18-transfer",
+      "title": "APR18 STEP 特征迁移的采样限制",
+      "queries": [
+        {
+          "id": "audit",
+          "source": {
+            "label": "APR18 与人造 step 原始数据核对",
+            "files": [
+              "APR18 SS SAOS STEPS LAOS UDLAOS.xlsx",
+              "control_1.csv",
+              "test_clot_1.csv",
+              "01_audit_sources.py"
+            ],
+            "caveats": [
+              "APR18 未提供额外变化起点的独立标签。",
+              "一秒窗口的缺测不能通过插值变成真实观测。",
+              "当前完成的是准备审查，尚未完成本轮 DWT 特征实验。"
+            ]
+          },
+          "columns": [
+            "metric",
+            "value"
+          ],
+          "rows": [
+            {
+              "metric": "APR18不同数值记录",
+              "value": 7
+            },
+            {
+              "metric": "BH原始点数",
+              "value": 65
+            },
+            {
+              "metric": "BH一秒窗口数（1–63秒）",
+              "value": 62
+            },
+            {
+              "metric": "其中没有原始点的窗口",
+              "value": 43
+            },
+            {
+              "metric": "BH最大原始采样空隙（秒）",
+              "value": 9.2854
+            },
+            {
+              "metric": "100 Hz网格应力回插误差/原始值域",
+              "value": 0.13135972869302337
+            }
+          ],
+          "methods": [
+            {
+              "language": "python",
+              "code": "# Count original points without adding observations.\nfor left in range(1, 63):\n    right = left + 1\n    original_points = int(((t >= left) & (t < right)).sum())\n# Grid diagnostics use all original points as linear interpolation knots.\ninterpolated = np.interp(grid, t, original)\nvalid = t <= grid[-1]\nerror = np.max(np.abs(np.interp(t[valid], grid, interpolated) - original[valid]))"
+            }
+          ],
+          "summary": "工作簿9块数值数据中有一组三份完全相同的导出，保留7条不同记录；源文件哈希和逐值导出检查通过。"
+        }
+      ]
+    }
+  ]
+}

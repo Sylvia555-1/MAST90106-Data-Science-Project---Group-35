@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "result",
+      "title": "APR18 特征及人造数据对照",
+      "queries": [
+        {
+          "id": "comparison",
+          "source": {
+            "label": "本轮 Python 特征实验",
+            "files": [
+              "APR18 SS SAOS STEPS LAOS UDLAOS.xlsx",
+              "control_1.csv",
+              "test_clot_1.csv",
+              "result_summary.json",
+              "validation.json"
+            ],
+            "caveats": [
+              "真实与人造阶跃起始剪切率不同，不能视为同条件物理重复。",
+              "真实记录没有独立事件标签，未计算检测准确率。",
+              "DWT 是离线计算，插值不是新增观测。"
+            ]
+          },
+          "rows": [
+            {
+              "case": "synthetic_growth",
+              "feature": "A8_rate",
+              "left_s": 40,
+              "right_s": 70,
+              "windows": 29,
+              "mean_rate": 0.0006046059433626181,
+              "negative_windows": 0,
+              "positive_windows": 29
+            },
+            {
+              "case": "synthetic_control",
+              "feature": "A8_rate",
+              "left_s": 40,
+              "right_s": 70,
+              "windows": 29,
+              "mean_rate": -9.120510523325635e-07,
+              "negative_windows": 18,
+              "positive_windows": 11
+            },
+            {
+              "case": "APR18_late",
+              "feature": "A13_rate",
+              "left_s": 18,
+              "right_s": 47,
+              "windows": 28,
+              "mean_rate": -1.7375321024995306e-05,
+              "negative_windows": 28,
+              "positive_windows": 0
+            }
+          ],
+          "columns": [
+            "case",
+            "feature",
+            "left_s",
+            "right_s",
+            "windows",
+            "mean_rate",
+            "negative_windows",
+            "positive_windows"
+          ],
+          "methods": [
+            {
+              "language": "calculation",
+              "code": "R_j = sqrt(mean(D_j^2))\nA_j rate = difference of consecutive window means / midpoint spacing\nSynthetic D8 scale = 256 * 0.01 = 2.56 s\nAPR18 D13 scale = 8192 * 0.000312499526 ≈ 2.56 s"
+            }
+          ],
+          "summary": "人造增长段近似变化率为正，APR18后段为负。它们描述变化方向，不建立检测性能排名。"
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "采样与对齐会改变细节特征",
+      "queries": [
+        {
+          "id": "sensitivity",
+          "source": {
+            "label": "采样诊断及敏感性计算",
+            "files": [
+              "feature_sensitivity.csv",
+              "original_support_per_second.csv",
+              "test_clot_1_dense_63s.csv",
+              "test_clot_1_APR18_sampling_63s.csv"
+            ],
+            "caveats": [
+              "相对L2差表示计算特征差异，不是材料变化比例。",
+              "采样诊断只使用同一条人造记录，不代表真实噪声机制。"
+            ]
+          },
+          "rows": [
+            {
+              "finding": "APR18 1–63秒的62个一秒窗口中无原始点的窗口",
+              "value": 43
+            },
+            {
+              "finding": "早期R6起点移动约0.005秒的相对L2差",
+              "value": 0.474004
+            },
+            {
+              "finding": "早期R7起点移动约0.005秒的相对L2差",
+              "value": 0.48229
+            },
+            {
+              "finding": "人造40秒起点两侧的APR18采样时刻",
+              "value": "39.0485–45.7985 s"
+            }
+          ],
+          "columns": [
+            "finding",
+            "value"
+          ],
+          "summary": "网格加密较稳定，但部分细节随分解起点变化明显；稀疏采样也会改变已知人造起点附近的响应。"
+        }
+      ]
+    }
+  ]
+}

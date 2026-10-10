@@ -1,0 +1,313 @@
+{
+  "source_hashes": {
+    "/Users/jerry_t0mato/Desktop/codex/exports/APR18_STEP_DWT_complete/inputs/APR18 SS SAOS STEPS LAOS UDLAOS.xlsx": "142f36127c216ac705822ea21118411de4b57c5519cd1b047ca45ce0fde76837",
+    "/Users/jerry_t0mato/Desktop/codex/exports/APR18_STEP_DWT_complete/inputs/synthetic_step/manifest.json": "25223d6849850892e5484cf4653eab10892d1530e0dfa4a8944e972b24fcc26b",
+    "/Users/jerry_t0mato/Desktop/codex/exports/APR18_STEP_DWT_complete/inputs/synthetic_step/test/control_1.csv": "804cf9a9df766de9999e55fa06f7ebbe3f3bea022581659efdce8a758dcb3fcd",
+    "/Users/jerry_t0mato/Desktop/codex/exports/APR18_STEP_DWT_complete/inputs/synthetic_step/test/test_clot_1.csv": "982fb7799569ac348148192ff9bd9a77668965c18919bf240c39fea789900ba3",
+    "/Users/jerry_t0mato/Desktop/codex/exports/APR18_STEP_DWT_complete/inputs/synthetic_step/train/cal_02_0p1_to_1.csv": "066dc772c9eb3072aa92ba3733fdeb36f0088d57b6633f1413d529e8e213f1e2"
+  },
+  "inventory": [
+    {
+      "column": "A",
+      "title": "300-->5",
+      "rows": 0,
+      "status": "title_only_no_data"
+    },
+    {
+      "column": "F",
+      "title": "5-->0.1",
+      "rows": 65,
+      "status": "distinct_record",
+      "identical_to": null,
+      "source_range": "steps!F4:I68",
+      "first_time_s": 0.000831136,
+      "last_time_s": 63.0007,
+      "min_gap_s": 0.00097656,
+      "max_gap_s": 9.285400000000003,
+      "points_first_0p2_s": 28,
+      "first_measured_rate": 5.0081,
+      "tail_median_rate": 0.500059,
+      "observed_min_time_s": 0.107826,
+      "observed_max_time_s": 0.0121532
+    },
+    {
+      "column": "K",
+      "title": "300-->10",
+      "rows": 0,
+      "status": "title_only_no_data"
+    },
+    {
+      "column": "P",
+      "title": "10-->0.1",
+      "rows": 0,
+      "status": "title_only_no_data"
+    },
+    {
+      "column": "U",
+      "title": "300-->.1",
+      "rows": 0,
+      "status": "title_only_no_data"
+    },
+    {
+      "column": "Z",
+      "title": ".1-->5",
+      "rows": 0,
+      "status": "title_only_no_data"
+    },
+    {
+      "column": "AE",
+      "title": ".1-->10",
+      "rows": 0,
+      "status": "title_only_no_data"
+    },
+    {
+      "column": "AI",
+      "title": "5-->2.5",
+      "rows": 65,
+      "status": "distinct_record",
+      "identical_to": null,
+      "source_range": "steps!AI4:AL68",
+      "first_time_s": 0.000834981,
+      "last_time_s": 63.0007,
+      "min_gap_s": 0.000999449,
+      "max_gap_s": 9.285400000000003,
+      "points_first_0p2_s": 28,
+      "first_measured_rate": 5.00094,
+      "tail_median_rate": 2.5003,
+      "observed_min_time_s": 0.0491672,
+      "observed_max_time_s": 0.0105014
+    },
+    {
+      "column": "AN",
+      "title": "5-->1",
+      "rows": 65,
+      "status": "distinct_record",
+      "identical_to": null,
+      "source_range": "steps!AN4:AQ68",
+      "first_time_s": 0.000843913,
+      "last_time_s": 63.0007,
+      "min_gap_s": 0.0009765600000000004,
+      "max_gap_s": 9.285400000000003,
+      "points_first_0p2_s": 28,
+      "first_measured_rate": 4.99306,
+      "tail_median_rate": 1.00012,
+      "observed_min_time_s": 0.327657,
+      "observed_max_time_s": 0.0141801
+    },
+    {
+      "column": "AS",
+      "title": "5-->.5",
+      "rows": 65,
+      "status": "duplicate",
+      "identical_to": "F",
+      "source_range": "steps!AS4:AV68",
+      "first_time_s": 0.000831136,
+      "last_time_s": 63.0007,
+      "min_gap_s": 0.00097656,
+      "max_gap_s": 9.285400000000003,
+      "points_first_0p2_s": 28,
+      "first_measured_rate": 5.0081,
+      "tail_median_rate": 0.500059,
+      "observed_min_time_s": 0.107826,
+      "observed_max_time_s": 0.0121532
+    },
+    {
+      "column": "AX",
+      "title": ".1-->.25",
+      "rows": 65,
+      "status": "duplicate",
+      "identical_to": "F",
+      "source_range": "steps!AX4:BA68",
+      "first_time_s": 0.000831136,
+      "last_time_s": 63.0007,
+      "min_gap_s": 0.00097656,
+      "max_gap_s": 9.285400000000003,
+      "points_first_0p2_s": 28,
+      "first_measured_rate": 5.0081,
+      "tail_median_rate": 0.500059,
+      "observed_min_time_s": 0.107826,
+      "observed_max_time_s": 0.0121532
+    },
+    {
+      "column": "BC",
+      "title": ".1-->.5",
+      "rows": 65,
+      "status": "distinct_record",
+      "identical_to": null,
+      "source_range": "steps!BC4:BF68",
+      "first_time_s": 0.000838867,
+      "last_time_s": 63.0007,
+      "min_gap_s": 0.0009765599999999996,
+      "max_gap_s": 9.285400000000003,
+      "points_first_0p2_s": 28,
+      "first_measured_rate": 0.0986352,
+      "tail_median_rate": 0.500059,
+      "observed_min_time_s": 0.030624,
+      "observed_max_time_s": 0.998275
+    },
+    {
+      "column": "BH",
+      "title": ".1-->1",
+      "rows": 65,
+      "status": "distinct_record",
+      "identical_to": null,
+      "source_range": "steps!BH4:BK68",
+      "first_time_s": 0.000795573,
+      "last_time_s": 63.0007,
+      "min_gap_s": 0.0009765599999999996,
+      "max_gap_s": 9.285400000000003,
+      "points_first_0p2_s": 28,
+      "first_measured_rate": 0.0991478,
+      "tail_median_rate": 1.00012,
+      "observed_min_time_s": 0.00787565,
+      "observed_max_time_s": 0.450381
+    },
+    {
+      "column": "BM",
+      "title": ".1-->2.5",
+      "rows": 65,
+      "status": "distinct_record",
+      "identical_to": null,
+      "source_range": "steps!BM4:BP68",
+      "first_time_s": 0.000796875,
+      "last_time_s": 63.0007,
+      "min_gap_s": 0.0009765599999999996,
+      "max_gap_s": 9.285400000000003,
+      "points_first_0p2_s": 28,
+      "first_measured_rate": 0.100212,
+      "tail_median_rate": 2.5003,
+      "observed_min_time_s": 0.00287207,
+      "observed_max_time_s": 0.203312
+    },
+    {
+      "column": "BR",
+      "title": ".1-->5",
+      "rows": 65,
+      "status": "distinct_record",
+      "identical_to": null,
+      "source_range": "steps!BR4:BU68",
+      "first_time_s": 0.000798177,
+      "last_time_s": 63.0007,
+      "min_gap_s": 0.0009765599999999996,
+      "max_gap_s": 9.285400000000003,
+      "points_first_0p2_s": 28,
+      "first_measured_rate": 0.101213,
+      "tail_median_rate": 5.00059,
+      "observed_min_time_s": 0.00787826,
+      "observed_max_time_s": 0.148015
+    }
+  ],
+  "distinct_records": 7,
+  "duplicate_group": [
+    "F",
+    "AS",
+    "AX"
+  ],
+  "duplicate_warning": "F and AX titles conflict with the observed 5 to 0.5/s input.",
+  "synthetic_profile": [
+    {
+      "file": "test/control_1.csv",
+      "rows": 12001,
+      "columns": [
+        "time_s",
+        "shear_rate_1_s",
+        "stress_Pa"
+      ],
+      "start_s": 0.0,
+      "end_s": 120.0,
+      "uniform_100_Hz": true,
+      "declared_pre_rate_1_s": 0.5,
+      "declared_target_rate_1_s": 1,
+      "declared_added_onset_s": null
+    },
+    {
+      "file": "test/test_clot_1.csv",
+      "rows": 12001,
+      "columns": [
+        "time_s",
+        "shear_rate_1_s",
+        "stress_Pa"
+      ],
+      "start_s": 0.0,
+      "end_s": 120.0,
+      "uniform_100_Hz": true,
+      "declared_pre_rate_1_s": 0.5,
+      "declared_target_rate_1_s": 1,
+      "declared_added_onset_s": 40.0
+    },
+    {
+      "file": "train/cal_02_0p1_to_1.csv",
+      "rows": 66,
+      "columns": [
+        "time_s",
+        "shear_rate_1_s",
+        "stress_Pa"
+      ],
+      "start_s": 0.0,
+      "end_s": 5.0,
+      "uniform_100_Hz": false,
+      "declared_pre_rate_1_s": 0.1,
+      "declared_target_rate_1_s": 1,
+      "declared_added_onset_s": null
+    }
+  ],
+  "BH_complete_one_second_windows": 62,
+  "BH_windows_with_no_original_point": 43,
+  "grid_diagnostics": [
+    {
+      "dt_s": 0.01,
+      "channel": "stress_Pa",
+      "max_roundtrip_error": 0.006967335773045404,
+      "fraction_of_original_range": 0.13135972869302337,
+      "raw_knots_in_roundtrip": 64,
+      "all_raw_points_used_as_interpolation_knots": true
+    },
+    {
+      "dt_s": 0.01,
+      "channel": "shear_rate_1_s",
+      "max_roundtrip_error": 0.1623884864697915,
+      "fraction_of_original_range": 0.17140938531845407,
+      "raw_knots_in_roundtrip": 64,
+      "all_raw_points_used_as_interpolation_knots": true
+    },
+    {
+      "dt_s": 0.0003125,
+      "channel": "stress_Pa",
+      "max_roundtrip_error": 0.00017626537864508587,
+      "fraction_of_original_range": 0.0033232462265373056,
+      "raw_knots_in_roundtrip": 64,
+      "all_raw_points_used_as_interpolation_knots": true
+    },
+    {
+      "dt_s": 0.0003125,
+      "channel": "shear_rate_1_s",
+      "max_roundtrip_error": 0.0013669910711664457,
+      "fraction_of_original_range": 0.0014429292638800735,
+      "raw_knots_in_roundtrip": 64,
+      "all_raw_points_used_as_interpolation_knots": true
+    },
+    {
+      "dt_s": 0.00015625,
+      "channel": "stress_Pa",
+      "max_roundtrip_error": 8.597993551510974e-05,
+      "fraction_of_original_range": 0.0016210358407015243,
+      "raw_knots_in_roundtrip": 64,
+      "all_raw_points_used_as_interpolation_knots": true
+    },
+    {
+      "dt_s": 0.00015625,
+      "channel": "shear_rate_1_s",
+      "max_roundtrip_error": 0.0008941768934797589,
+      "fraction_of_original_range": 0.0009438496226506953,
+      "raw_knots_in_roundtrip": 64,
+      "all_raw_points_used_as_interpolation_knots": true
+    }
+  ],
+  "checks": {
+    "source_hashes_unchanged": true,
+    "exports_exact": true,
+    "finite_values": true,
+    "strictly_increasing_time": true
+  },
+  "scope": "Source audit only. No DWT features or change-point detection yet."
+}

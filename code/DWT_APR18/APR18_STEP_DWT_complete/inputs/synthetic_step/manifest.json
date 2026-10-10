@@ -1,0 +1,118 @@
+{
+  "sampling_Hz": 100,
+  "generator_seed": 20261006,
+  "model_source": "supplied tesstv_parameter_fitting(1).zip, jun18_tesstv_jointfit/core.py",
+  "generator_parameters": "PUBLISHED_MEAN, printed in fit core; calibration and test share baseline parameters",
+  "calibration_steady_points": 16,
+  "records": [
+    {
+      "file": "cal_01_0p1_to_0p5.csv",
+      "role": "calibration",
+      "pre_rate_1_s": 0.1,
+      "target_rate_1_s": 0.5,
+      "clot_onset_s": null,
+      "excess_stress_plateau_Pa": 0.0,
+      "seed": 100
+    },
+    {
+      "file": "cal_02_0p1_to_1.csv",
+      "role": "calibration",
+      "pre_rate_1_s": 0.1,
+      "target_rate_1_s": 1,
+      "clot_onset_s": null,
+      "excess_stress_plateau_Pa": 0.0,
+      "seed": 101
+    },
+    {
+      "file": "cal_03_0p1_to_2p5.csv",
+      "role": "calibration",
+      "pre_rate_1_s": 0.1,
+      "target_rate_1_s": 2.5,
+      "clot_onset_s": null,
+      "excess_stress_plateau_Pa": 0.0,
+      "seed": 102
+    },
+    {
+      "file": "cal_04_0p1_to_5.csv",
+      "role": "calibration",
+      "pre_rate_1_s": 0.1,
+      "target_rate_1_s": 5,
+      "clot_onset_s": null,
+      "excess_stress_plateau_Pa": 0.0,
+      "seed": 103
+    },
+    {
+      "file": "cal_05_5_to_0p1.csv",
+      "role": "calibration",
+      "pre_rate_1_s": 5,
+      "target_rate_1_s": 0.1,
+      "clot_onset_s": null,
+      "excess_stress_plateau_Pa": 0.0,
+      "seed": 104
+    },
+    {
+      "file": "cal_06_5_to_0p5.csv",
+      "role": "calibration",
+      "pre_rate_1_s": 5,
+      "target_rate_1_s": 0.5,
+      "clot_onset_s": null,
+      "excess_stress_plateau_Pa": 0.0,
+      "seed": 105
+    },
+    {
+      "file": "cal_07_5_to_1.csv",
+      "role": "calibration",
+      "pre_rate_1_s": 5,
+      "target_rate_1_s": 1,
+      "clot_onset_s": null,
+      "excess_stress_plateau_Pa": 0.0,
+      "seed": 106
+    },
+    {
+      "file": "cal_08_5_to_2p5.csv",
+      "role": "calibration",
+      "pre_rate_1_s": 5,
+      "target_rate_1_s": 2.5,
+      "clot_onset_s": null,
+      "excess_stress_plateau_Pa": 0.0,
+      "seed": 107
+    },
+    {
+      "file": "control_1.csv",
+      "role": "test",
+      "pre_rate_1_s": 0.5,
+      "target_rate_1_s": 1,
+      "clot_onset_s": null,
+      "excess_stress_plateau_Pa": 0.0,
+      "seed": 200
+    },
+    {
+      "file": "test_clot_1.csv",
+      "role": "test",
+      "pre_rate_1_s": 0.5,
+      "target_rate_1_s": 1,
+      "clot_onset_s": 40.0,
+      "excess_stress_plateau_Pa": 0.018,
+      "seed": 300
+    },
+    {
+      "file": "control_2.csv",
+      "role": "test",
+      "pre_rate_1_s": 2.0,
+      "target_rate_1_s": 0.5,
+      "clot_onset_s": null,
+      "excess_stress_plateau_Pa": 0.0,
+      "seed": 201
+    },
+    {
+      "file": "test_clot_2.csv",
+      "role": "test",
+      "pre_rate_1_s": 2.0,
+      "target_rate_1_s": 0.5,
+      "clot_onset_s": 55.0,
+      "excess_stress_plateau_Pa": 0.014,
+      "seed": 301
+    }
+  ],
+  "warning": "Excess clot stress, onset, growth time and noise are scenario assumptions, not physiological fit. This is a test of known injected deviations. Test truth files must never enter fitting."
+}
