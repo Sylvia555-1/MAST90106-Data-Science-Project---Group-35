@@ -1,0 +1,152 @@
+{
+  "full/control/R6_Pa/k3": [],
+  "full/control/R6_Pa/k6": [],
+  "full/control/R6_Pa/k9": [],
+  "full/control/raw_RMS_Pa/k3": [
+    {
+      "first_window_left_s": 329.0,
+      "first_window_right_s": 339.0,
+      "estimated_onset_midpoint_s": 334.0,
+      "third_window_right_s": 341.0,
+      "consecutive_windows": 7
+    },
+    {
+      "first_window_left_s": 647.0,
+      "first_window_right_s": 657.0,
+      "estimated_onset_midpoint_s": 652.0,
+      "third_window_right_s": 659.0,
+      "consecutive_windows": 4
+    }
+  ],
+  "full/control/raw_RMS_Pa/k6": [],
+  "full/control/raw_RMS_Pa/k9": [],
+  "full/clot_A/R6_Pa/k3": [
+    {
+      "first_window_left_s": 296.0,
+      "first_window_right_s": 306.0,
+      "estimated_onset_midpoint_s": 301.0,
+      "third_window_right_s": 308.0,
+      "consecutive_windows": 1475
+    }
+  ],
+  "full/clot_A/R6_Pa/k6": [
+    {
+      "first_window_left_s": 297.0,
+      "first_window_right_s": 307.0,
+      "estimated_onset_midpoint_s": 302.0,
+      "third_window_right_s": 309.0,
+      "consecutive_windows": 1474
+    }
+  ],
+  "full/clot_A/R6_Pa/k9": [
+    {
+      "first_window_left_s": 297.0,
+      "first_window_right_s": 307.0,
+      "estimated_onset_midpoint_s": 302.0,
+      "third_window_right_s": 309.0,
+      "consecutive_windows": 1474
+    }
+  ],
+  "full/clot_A/raw_RMS_Pa/k3": [
+    {
+      "first_window_left_s": 293.0,
+      "first_window_right_s": 303.0,
+      "estimated_onset_midpoint_s": 298.0,
+      "third_window_right_s": 305.0,
+      "consecutive_windows": 1478
+    }
+  ],
+  "full/clot_A/raw_RMS_Pa/k6": [
+    {
+      "first_window_left_s": 293.0,
+      "first_window_right_s": 303.0,
+      "estimated_onset_midpoint_s": 298.0,
+      "third_window_right_s": 305.0,
+      "consecutive_windows": 1478
+    }
+  ],
+  "full/clot_A/raw_RMS_Pa/k9": [
+    {
+      "first_window_left_s": 294.0,
+      "first_window_right_s": 304.0,
+      "estimated_onset_midpoint_s": 299.0,
+      "third_window_right_s": 306.0,
+      "consecutive_windows": 1477
+    }
+  ],
+  "crop_one_cycle/control/R6_Pa/k3": [],
+  "crop_one_cycle/control/R6_Pa/k6": [],
+  "crop_one_cycle/control/R6_Pa/k9": [],
+  "crop_one_cycle/control/raw_RMS_Pa/k3": [
+    {
+      "first_window_left_s": 329.0,
+      "first_window_right_s": 339.0,
+      "estimated_onset_midpoint_s": 334.0,
+      "third_window_right_s": 341.0,
+      "consecutive_windows": 7
+    },
+    {
+      "first_window_left_s": 647.0,
+      "first_window_right_s": 657.0,
+      "estimated_onset_midpoint_s": 652.0,
+      "third_window_right_s": 659.0,
+      "consecutive_windows": 4
+    }
+  ],
+  "crop_one_cycle/control/raw_RMS_Pa/k6": [],
+  "crop_one_cycle/control/raw_RMS_Pa/k9": [],
+  "crop_one_cycle/clot_A/R6_Pa/k3": [
+    {
+      "first_window_left_s": 295.0,
+      "first_window_right_s": 305.0,
+      "estimated_onset_midpoint_s": 300.0,
+      "third_window_right_s": 307.0,
+      "consecutive_windows": 1476
+    }
+  ],
+  "crop_one_cycle/clot_A/R6_Pa/k6": [
+    {
+      "first_window_left_s": 296.0,
+      "first_window_right_s": 306.0,
+      "estimated_onset_midpoint_s": 301.0,
+      "third_window_right_s": 308.0,
+      "consecutive_windows": 1475
+    }
+  ],
+  "crop_one_cycle/clot_A/R6_Pa/k9": [
+    {
+      "first_window_left_s": 297.0,
+      "first_window_right_s": 307.0,
+      "estimated_onset_midpoint_s": 302.0,
+      "third_window_right_s": 309.0,
+      "consecutive_windows": 1474
+    }
+  ],
+  "crop_one_cycle/clot_A/raw_RMS_Pa/k3": [
+    {
+      "first_window_left_s": 293.0,
+      "first_window_right_s": 303.0,
+      "estimated_onset_midpoint_s": 298.0,
+      "third_window_right_s": 305.0,
+      "consecutive_windows": 1478
+    }
+  ],
+  "crop_one_cycle/clot_A/raw_RMS_Pa/k6": [
+    {
+      "first_window_left_s": 293.0,
+      "first_window_right_s": 303.0,
+      "estimated_onset_midpoint_s": 298.0,
+      "third_window_right_s": 305.0,
+      "consecutive_windows": 1478
+    }
+  ],
+  "crop_one_cycle/clot_A/raw_RMS_Pa/k9": [
+    {
+      "first_window_left_s": 294.0,
+      "first_window_right_s": 304.0,
+      "estimated_onset_midpoint_s": 299.0,
+      "third_window_right_s": 306.0,
+      "consecutive_windows": 1477
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "purpose": "Candidate features for added growth after fixed loading; pair 1 only.",
+  "cases": [
+    "control_1",
+    "test_clot_1"
+  ],
+  "wavelet": "db2",
+  "level": 8,
+  "extension": "symmetric",
+  "sampling_Hz": 100,
+  "window_s": 1,
+  "boundary_exclusion_s": 16,
+  "variants": [
+    "2s_windows",
+    "crop_1_sample",
+    "crop_32_samples"
+  ],
+  "reference_interval_s": [
+    20,
+    30
+  ],
+  "raw_data_normalized": false,
+  "scope": "Exploratory: metadata and truth were previously inspected. No detection threshold or accuracy."
+}

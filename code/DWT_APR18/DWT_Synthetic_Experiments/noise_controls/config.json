@@ -1,0 +1,23 @@
+{
+  "source_dir": "../data/coagulation_synthetic",
+  "sampling_hz": 100,
+  "frequency_hz": 1,
+  "duration_s": 1800,
+  "wavelet": "db2",
+  "level": 8,
+  "mode": "symmetric",
+  "window_s": 10,
+  "boundary_s": 20,
+  "reference_start_s": 20,
+  "reference_end_s": 200,
+  "reconstruction_tolerance_pa": 1e-10,
+  "sensitivity_window_s": [
+    5,
+    20
+  ],
+  "sensitivity_start_samples": [
+    1,
+    8,
+    32
+  ]
+}

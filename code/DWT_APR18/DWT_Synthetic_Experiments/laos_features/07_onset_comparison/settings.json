@@ -1,0 +1,23 @@
+{
+  "primary_k": 6,
+  "sensitivity_k": [
+    3,
+    9
+  ],
+  "required_consecutive_windows": 3,
+  "baseline": "control only; windows contained in [20, 200) seconds",
+  "monitoring": "windows contained in [200, 1780) seconds",
+  "threshold": "median + k * 1.4826 * median absolute deviation",
+  "estimated_onset": "midpoint of first window in first qualifying run",
+  "window_s": 10,
+  "stride_s": 1,
+  "three_windows_cover_s": 12,
+  "false_positive_scope": "candidate runs on one control record, not a population false-alarm rate",
+  "caveats": [
+    "Exploratory: source metadata and truth have already been reviewed.",
+    "A midpoint error is a convention-dependent summary, not proven temporal resolution.",
+    "Full-record DWT and centered windows can give early responses using future samples.",
+    "Threshold multipliers are working choices, not calibrated probability levels."
+  ],
+  "persistence_check_passed": true
+}

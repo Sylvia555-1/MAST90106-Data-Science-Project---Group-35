@@ -1,0 +1,83 @@
+{
+  "scope": "Implementation and interpretation checks; no detector evaluated",
+  "all_passed": true,
+  "check_count": 12,
+  "checks": [
+    {
+      "name": "perfect_reconstruction",
+      "passed": true,
+      "inverse_max_error": 7.771561172376096e-16,
+      "component_sum_max_error": 8.881784197001252e-16
+    },
+    {
+      "name": "component_linearity",
+      "passed": true,
+      "max_error": 5.551115123125783e-16
+    },
+    {
+      "name": "amplitude_scaling_and_share_invariance",
+      "passed": true,
+      "rms_max_error": 2.220446049250313e-16,
+      "P6_max_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "growth_rate_uses_physical_seconds",
+      "passed": true,
+      "compared_windows": 25
+    },
+    {
+      "name": "local_energy_includes_cross_term",
+      "passed": true,
+      "max_identity_error": 2.0816681711721685e-17,
+      "max_error_without_cross_term": 0.04937573831458235
+    },
+    {
+      "name": "zero_signal_has_undefined_share",
+      "passed": true
+    },
+    {
+      "name": "first_growth_rate_is_undefined",
+      "passed": true
+    },
+    {
+      "name": "pure_carrier_has_multiscale_details",
+      "passed": true,
+      "rms_by_detail": {
+        "D8": 0.06882648148643239,
+        "D7": 0.278774884088158,
+        "D6": 0.5845693306232915,
+        "D5": 0.25984840926628394,
+        "D4": 0.07413938735870586,
+        "D3": 0.019137330947218336,
+        "D2": 0.004822382340877179,
+        "D1": 0.0012079796439283122
+      },
+      "implication": "Nonzero fine-scale activity is not sufficient evidence of noise."
+    },
+    {
+      "name": "cropping_preserves_absolute_window_features",
+      "passed": true,
+      "common_windows": 29,
+      "max_error": 0.0
+    },
+    {
+      "name": "nonuniform_time_is_rejected",
+      "passed": true
+    },
+    {
+      "name": "configured_boundary_exceeds_support_bound",
+      "passed": true,
+      "support_bound_samples": 1530,
+      "support_bound_s": 15.3,
+      "configured_margin_s": 20
+    },
+    {
+      "name": "extension_changes_do_not_reach_interior",
+      "passed": true,
+      "interior_max_error_by_extension": {
+        "zero": 0.0,
+        "reflect": 0.0
+      }
+    }
+  ]
+}

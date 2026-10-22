@@ -1,0 +1,49 @@
+{
+  "python": "3.12.7",
+  "recomputed_and_compared": [
+    {
+      "file": "step_growth/results/observed/control_1.csv",
+      "matches_archived_run": true,
+      "rtol": 1e-10,
+      "atol": 1e-12
+    },
+    {
+      "file": "step_growth/results/observed/test_clot_1.csv",
+      "matches_archived_run": true,
+      "rtol": 1e-10,
+      "atol": 1e-12
+    },
+    {
+      "file": "step_growth/results/level_comparison/summary.csv",
+      "matches_archived_run": true,
+      "rtol": 1e-10,
+      "atol": 1e-12
+    },
+    {
+      "file": "laos_features/03_observed_features/control.csv",
+      "matches_archived_run": true,
+      "rtol": 1e-10,
+      "atol": 1e-12
+    },
+    {
+      "file": "laos_features/03_observed_features/clot_A.csv",
+      "matches_archived_run": true,
+      "rtol": 1e-10,
+      "atol": 1e-12
+    },
+    {
+      "file": "laos_features/07_onset_comparison/results.csv",
+      "matches_archived_run": true,
+      "rtol": 1e-10,
+      "atol": 1e-12
+    }
+  ],
+  "noise_self_checks": "12/12 passed",
+  "all_python_files_parse": true,
+  "not_rerun": [
+    "full noise attribution/sensitivity pipeline",
+    "full A3-A7 benchmark"
+  ],
+  "source_data_included": false,
+  "packaging_changes": "Input path portability only; original scientific settings retained."
+}

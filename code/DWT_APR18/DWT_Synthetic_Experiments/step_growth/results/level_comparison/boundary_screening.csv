@@ -1,0 +1,6 @@
+level,coefficient_spacing_s,conservative_margin_each_end_s,remaining_interior_duration_s,included_in_feature_comparison
+7,1.28,7.62,104.0,True
+8,2.56,15.3,88.0,True
+9,5.12,30.66,58.0,True
+10,10.24,61.38,0.0,False
+11,20.48,122.82,0.0,False

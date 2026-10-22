@@ -1,0 +1,43 @@
+{
+  "wavelet": "db2",
+  "extension": "symmetric",
+  "window_s": 1,
+  "levels": [
+    7,
+    8,
+    9
+  ],
+  "common_interval_s": [
+    32,
+    88
+  ],
+  "maximum_reconstruction_error_Pa": 9.020562075079397e-17,
+  "component_identity_checks": [
+    {
+      "case": "control_1",
+      "A8_equals_A9_plus_D9_max_error_Pa": 3.1476591352917055e-17,
+      "shared_D1_to_D8_max_error_Pa": 0.0
+    },
+    {
+      "case": "test_clot_1",
+      "A8_equals_A9_plus_D9_max_error_Pa": 5.76524505219167e-17,
+      "shared_D1_to_D8_max_error_Pa": 0.0
+    }
+  ],
+  "matches_saved_level8_max_error_Pa_s": 9.562663161322149e-17,
+  "constant_signal_checks_passed": true,
+  "source_hashes_unchanged": true,
+  "source_hashes": {
+    "/Users/jerry_t0mato/Desktop/\u6bd5\u4e1a\u9879\u76ee2/dwt\u5728\u4eba\u9020\u6570\u636e\u5b9e\u9a8c\u7ed3\u679c/step_data/test/control_1.csv": "804cf9a9df766de9999e55fa06f7ebbe3f3bea022581659efdce8a758dcb3fcd",
+    "/Users/jerry_t0mato/Desktop/\u6bd5\u4e1a\u9879\u76ee2/dwt\u5728\u4eba\u9020\u6570\u636e\u5b9e\u9a8c\u7ed3\u679c/step_data/ground_truth/control_1_truth.csv": "41501b61df2586edf4c2d66b51211d17ac62d85a88bc1de482abae16f14fc642",
+    "/Users/jerry_t0mato/Desktop/\u6bd5\u4e1a\u9879\u76ee2/dwt\u5728\u4eba\u9020\u6570\u636e\u5b9e\u9a8c\u7ed3\u679c/step_data/test/test_clot_1.csv": "982fb7799569ac348148192ff9bd9a77668965c18919bf240c39fea789900ba3",
+    "/Users/jerry_t0mato/Desktop/\u6bd5\u4e1a\u9879\u76ee2/dwt\u5728\u4eba\u9020\u6570\u636e\u5b9e\u9a8c\u7ed3\u679c/step_data/ground_truth/test_clot_1_truth.csv": "8d192e36d19be96bc80d613d04c15a4387a4d0f5fd9e15ad3ccbcc4cb18dde40"
+  },
+  "max_level": 11,
+  "limitations": [
+    "Offline; uses future samples.",
+    "Known truth inspected; exploratory.",
+    "No threshold, detected onset, accuracy, or selected optimal level.",
+    "All timing labels refer to two adjacent one-second windows."
+  ]
+}

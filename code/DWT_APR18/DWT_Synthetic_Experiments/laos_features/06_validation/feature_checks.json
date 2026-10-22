@@ -1,0 +1,36 @@
+{
+  "reconstruction_error_Pa": {
+    "control": 9.540979117872439e-18,
+    "clot_A": 2.1316282072803006e-14
+  },
+  "source_unchanged": true,
+  "clean_control_R6_peak_to_peak_over_mean": 0.04784509869357609,
+  "crop_one_cycle_baseline_alignment": [
+    {
+      "case": "control",
+      "feature": "R6",
+      "max_abs_difference_Pa": 0.0001834303269232728,
+      "median_full_R6_Pa": 0.003614970537777255
+    },
+    {
+      "case": "clot_A",
+      "feature": "R6",
+      "max_abs_difference_Pa": 0.00017529735036935553,
+      "median_full_R6_Pa": 0.003614638824188647
+    }
+  ],
+  "settings": {
+    "wavelet": "db2",
+    "level": 8,
+    "extension": "symmetric",
+    "window_s": 10,
+    "stride_s": 1,
+    "transform": "full record offline",
+    "boundary_exclusion_s": 16
+  },
+  "no_resampling": true,
+  "no_amplitude_normalization": true,
+  "detector_fitted": false,
+  "feature_ranking_exploratory": true,
+  "note": "Noise-only RMS does not add linearly to clean RMS. B and C were audited but not used in feature screening."
+}

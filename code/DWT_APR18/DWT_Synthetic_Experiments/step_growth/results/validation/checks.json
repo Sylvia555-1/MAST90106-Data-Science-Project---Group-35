@@ -1,0 +1,37 @@
+{
+  "self_checks": {
+    "complete_windows_and_endpoint": true,
+    "initial_slope_missing": true,
+    "constant_details_zero": true,
+    "linear_slope_preserved_interior": true,
+    "crop_preserves_absolute_raw_windows": true,
+    "amplitude_scaling": true,
+    "manual_window_mean": true,
+    "constant_reconstruction_error_Pa": 2.7755575615628914e-17
+  },
+  "reconstruction": [
+    {
+      "case": "control_1",
+      "reconstruction_error_Pa": 4.85722573273506e-17,
+      "input_reconstruction_error_1_s": 1.1102230246251565e-15
+    },
+    {
+      "case": "test_clot_1",
+      "reconstruction_error_Pa": 6.938893903907228e-17,
+      "input_reconstruction_error_1_s": 1.1102230246251565e-15
+    }
+  ],
+  "source_hashes": {
+    "manifest.json": "25223d6849850892e5484cf4653eab10892d1530e0dfa4a8944e972b24fcc26b",
+    "test/control_1.csv": "804cf9a9df766de9999e55fa06f7ebbe3f3bea022581659efdce8a758dcb3fcd",
+    "test/test_clot_1.csv": "982fb7799569ac348148192ff9bd9a77668965c18919bf240c39fea789900ba3",
+    "ground_truth/control_1_truth.csv": "41501b61df2586edf4c2d66b51211d17ac62d85a88bc1de482abae16f14fc642",
+    "ground_truth/test_clot_1_truth.csv": "8d192e36d19be96bc80d613d04c15a4387a4d0f5fd9e15ad3ccbcc4cb18dde40"
+  },
+  "source_unchanged": true,
+  "saved_observed_features_unchanged": true,
+  "python": "/opt/anaconda3/bin/python",
+  "numpy": "1.26.4",
+  "pywavelets": "1.7.0",
+  "note": "No detector, threshold, timing score or accuracy was calculated."
+}
