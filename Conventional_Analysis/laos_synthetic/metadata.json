@@ -1,0 +1,119 @@
+{
+  "name": "Illustrative strain-controlled LAOS clot-change benchmark",
+  "protocol": {
+    "sampling_Hz": 100,
+    "duration_s": 1800,
+    "frequency_Hz": 1.0,
+    "strain_amplitude": 0.1,
+    "sampling": "uniform"
+  },
+  "APR18_SAOS_baseline_at_1Hz": {
+    "Gprime_Pa": 0.0021502273569187027,
+    "Gdoubleprime_Pa": 0.06202740369600379,
+    "warning": "Linear small-amplitude APR18 baseline transferred to a large-amplitude protocol; pre-clot nonlinearity is assumed, not APR18 measured LAOS."
+  },
+  "scenario": {
+    "onset_and_plateau_by_case": {
+      "control": {
+        "onset_s": null,
+        "seed": 200,
+        "plateau_reference_Pa": 0,
+        "pre_I3_I1_median": 0.0011463250224649525,
+        "late_I3_I1_median": 0.0017915085361645494,
+        "pre_I5_I1_median": 0.0016899835064729694,
+        "late_I5_I1_median": 0.0013382269010656304,
+        "first_alarm_window_end_s": null
+      },
+      "clot_A": {
+        "onset_s": 300,
+        "seed": 301,
+        "plateau_reference_Pa": 210,
+        "pre_I3_I1_median": 0.0020022646135387555,
+        "late_I3_I1_median": 0.15265040711115893,
+        "pre_I5_I1_median": 0.0009243888879665815,
+        "late_I5_I1_median": 0.01913486836856743,
+        "first_alarm_window_end_s": 340
+      },
+      "clot_B": {
+        "onset_s": 240,
+        "seed": 302,
+        "plateau_reference_Pa": 182,
+        "pre_I3_I1_median": 0.001055831977960402,
+        "late_I3_I1_median": 0.15275493040127705,
+        "pre_I5_I1_median": 0.0011676129412875515,
+        "late_I5_I1_median": 0.01918826696605378,
+        "first_alarm_window_end_s": 280
+      },
+      "clot_C": {
+        "onset_s": 360,
+        "seed": 303,
+        "plateau_reference_Pa": 238,
+        "pre_I3_I1_median": 0.0014191248150927853,
+        "late_I3_I1_median": 0.1527045264599727,
+        "pre_I5_I1_median": 0.0012660898066022197,
+        "late_I5_I1_median": 0.01911278507904382,
+        "first_alarm_window_end_s": 400
+      }
+    },
+    "growth_q": "0 for t<onset; 1-exp(-((t-onset)/300)^2) thereafter",
+    "stress": "gamma0 * [Gp(t)*(s-a(t)*s^3+b(t)*s^5)+Gpp(t)*cos(2*pi*t)] + colored_noise; s=sin(2*pi*t)",
+    "Gp": "APR18 Gp + plateau_reference*q; Gpp=APR18 Gpp+0.15*plateau_reference*q",
+    "a": "0.08+0.57*q",
+    "b": "0.008+0.192*q",
+    "noise": "AR(1) rho=0.8, stationary SD=0.00008+0.002*gamma0*hypot(Gp,Gpp)",
+    "noise_seeds": "control 200; A 301; B 302; C 303",
+    "warning": "The plateau reference of 210±29 Pa was reported in low-deformation clot formation, not LAOS; its use as a polynomial scale is an uncalibrated scenario choice. The nonlinear coefficients, times, growth, loss ratio and noise are likewise assumptions."
+  },
+  "validation": {
+    "method": "Nonoverlapping 10 s FFT windows; amplitudes at 1, 3, 5 Hz; I3/I1 threshold fixed using max control I3/I1 + 0.01; 3 consecutive windows.",
+    "control_only_threshold_I3_I1": 0.015544438420933811,
+    "results": {
+      "control": {
+        "onset_s": null,
+        "seed": 200,
+        "plateau_reference_Pa": 0,
+        "pre_I3_I1_median": 0.0011463250224649525,
+        "late_I3_I1_median": 0.0017915085361645494,
+        "pre_I5_I1_median": 0.0016899835064729694,
+        "late_I5_I1_median": 0.0013382269010656304,
+        "first_alarm_window_end_s": null
+      },
+      "clot_A": {
+        "onset_s": 300,
+        "seed": 301,
+        "plateau_reference_Pa": 210,
+        "pre_I3_I1_median": 0.0020022646135387555,
+        "late_I3_I1_median": 0.15265040711115893,
+        "pre_I5_I1_median": 0.0009243888879665815,
+        "late_I5_I1_median": 0.01913486836856743,
+        "first_alarm_window_end_s": 340
+      },
+      "clot_B": {
+        "onset_s": 240,
+        "seed": 302,
+        "plateau_reference_Pa": 182,
+        "pre_I3_I1_median": 0.001055831977960402,
+        "late_I3_I1_median": 0.15275493040127705,
+        "pre_I5_I1_median": 0.0011676129412875515,
+        "late_I5_I1_median": 0.01918826696605378,
+        "first_alarm_window_end_s": 280
+      },
+      "clot_C": {
+        "onset_s": 360,
+        "seed": 303,
+        "plateau_reference_Pa": 238,
+        "pre_I3_I1_median": 0.0014191248150927853,
+        "late_I3_I1_median": 0.1527045264599727,
+        "pre_I5_I1_median": 0.0012660898066022197,
+        "late_I5_I1_median": 0.01911278507904382,
+        "first_alarm_window_end_s": 400
+      }
+    },
+    "interpretation": "Checks injected change detectability, not real clot diagnostic validity."
+  },
+  "citations": [
+    "van Kempen et al. 2016 https://doi.org/10.1007/s10237-015-0686-9",
+    "Windberger et al. 2020 https://doi.org/10.3390/molecules25173890",
+    "Ewoldt et al. 2008 https://doi.org/10.1122/1.2970095"
+  ]
+}

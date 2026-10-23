@@ -1,0 +1,2 @@
+selected_experiment,signal,samples,cycles_used,duration_s,dt_s,fs_hz,nyquist_hz,frequency_resolution_hz,protocol_f0_hz
+LAOS omega=1; Gamma=10,stress,1571,5,31.415926535897935,0.01999740708841371,50.00648311947351,25.003241559736754,0.03183098861837907,0.15915494309189535

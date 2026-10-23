@@ -1,0 +1,2 @@
+sample,mode,method,status,observable_detection_s,observable_confirmation_s,truth_injected_clot_state_onset_s,truth_annotated_critical_gel_s,truth_ideal_G1_crossover_s,detection_minus_onset_s,detection_minus_annotated_gel_s,detection_minus_ideal_G1_crossover_s,usable_fft_cycles,median_frequency_Hz,median_strain_amplitude,median_I3_over_I1,valid_WC_time_bins
+APR18_LAOS_w1_gamma50,LAOS,FFT G'1/G''1 persistent crossover (NOT critical gel criterion),no_persistent_G1_crossover,,,,,,,,,6,0.15915425841750652,50.00841414837457,0.08407074972087392,0

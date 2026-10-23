@@ -1,0 +1,7 @@
+sample,omega_rad_s,nominal_strain_amplitude,rows,first_time_s,last_time_s,first_row_discarded,csv
+APR18_LAOS_w1_gamma0p5,1,0.5,1995,0.0403519,39.9953,True,observable/APR18_LAOS_w1_gamma0p5.csv
+APR18_LAOS_w1_gamma1,1,1,1995,0.0403763,39.9953,True,observable/APR18_LAOS_w1_gamma1.csv
+APR18_LAOS_w1_gamma5,1,5,1995,0.0403232,39.9953,True,observable/APR18_LAOS_w1_gamma5.csv
+APR18_LAOS_w1_gamma10,1,10,1995,0.0402702,39.9953,True,observable/APR18_LAOS_w1_gamma10.csv
+APR18_LAOS_w1_gamma50,1,50,1995,0.0402454,39.9953,True,observable/APR18_LAOS_w1_gamma50.csv
+APR18_LAOS_w1_gamma100,1,100,1995,0.0403919,39.9952,True,observable/APR18_LAOS_w1_gamma100.csv

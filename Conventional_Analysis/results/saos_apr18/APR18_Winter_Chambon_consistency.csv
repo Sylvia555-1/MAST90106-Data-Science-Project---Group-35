@@ -1,0 +1,2 @@
+dataset,num_frequencies,omega_min_rad_s,omega_max_rad_s,exponent_G_prime,exponent_G_double_prime,exponent_difference,slope_log_tan_delta,tan_delta_min,tan_delta_max,tan_delta_log_spread,gel_time_s,gel_time_status
+APR18 frequency sweep,20,0.5,40.0,0.876045048965311,0.6965663336440231,0.1794787153212879,-0.17947871532128856,11.393871599216972,34.47625261097637,1.1071951250757568,,Not identifiable: only one measured frequency sweep (no coagulation time series)
