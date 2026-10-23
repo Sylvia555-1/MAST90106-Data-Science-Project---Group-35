@@ -11,4 +11,4 @@ pip install PYWavelets
 ## AI Usage Declaration
 
 Our AI usage declaration is available in
-[AI_DECLARATION.md](doc/AI_DECLARATION.md).
+[AI_Declration.md](doc/AI_DECLARATION.md).
