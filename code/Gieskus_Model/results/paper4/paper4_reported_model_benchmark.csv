@@ -1,6 +1,0 @@
-paper_id,model,Fcost_SS,k_SS,AIC_SS,BIC_SS,Fcost_trans,k_trans,AIC_trans,BIC_trans,Fcost_LAOS,Fcost_UDLAOS,Fcost_SAOS,Fcost_total
-4,ethixo-Giesekus,0.0121,11,14.565,53.562,0.0007,13,20.53,149.649,0.00085,0.00085,0.00251,0.00123
-comparison source cited in Paper 4,ethixo-Convected Maxwell,0.01601,6,8.43,33.25,0.00051,10,13.45,112.77,0.00106,0.00119,0.00309,0.00146
-comparison source cited in Paper 4,Corotational Jeffreys,0.00844,8,7.75,36.11,0.00052,11,15.51,124.77,0.0006,0.00082,0.00687,0.0022
-comparison source cited in Paper 4,Oldroyd-4,0.01097,9,10.82,42.73,0.00076,12,19.1,138.29,0.00133,0.00243,0.00298,0.00187
-comparison source cited in Paper 4,mHAWB,0.00619,9,8.63,40.54,0.00052,12,17.52,136.71,0.00066,0.0008,0.00169,0.00092
