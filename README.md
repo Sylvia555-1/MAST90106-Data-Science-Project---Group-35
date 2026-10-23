@@ -12,4 +12,4 @@ pip install PYWavelets
 
 Generative AI tools were used to support selected aspects
 of this project. Details are documented in our
-[AI Usage Declaration](AI_DECLARATION.md).
+[AI Usage Declaration](AI DECLARATION.md).
