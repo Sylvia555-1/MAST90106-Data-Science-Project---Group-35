@@ -1,8 +1,7 @@
 # APR18 step DWT features versus synthetic step features
 
 This offline Python experiment studies the full APR18 0.1-to-1/s response
-(steps!BH4:BK68), using the scope confirmed by the user. Read `RESULTS_ZH.md`
-for findings and limitations. It does not estimate real-data detection accuracy.
+(steps!BH4:BK68), using the scope confirmed by the user. It does not estimate real-data detection accuracy.
 
 ## Run
 
